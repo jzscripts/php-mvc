@@ -1,0 +1,72 @@
+body{
+	padding-top: 70px;
+	padding-bottom: 20px;
+}
+
+footer{
+	background-color: #EEE;
+	border-top: 10px solid #BBB;
+	font-size: 14px;
+	padding: 10px;
+	text-align: center;
+}
+
+.box-principal{
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	padding-top: 2%;
+}
+
+.titulo{
+	text-align: center;
+}
+
+.imagen-avatar{
+	height: 50px;
+	width: 50px;
+}
+.caja-login {
+	font-family: futura;
+	padding-top: 20px;
+	border:1px;
+	border-radius: 10px 10px 10px 10px;
+	box-shadow: 0px 0px 40px grey;
+	position: relative;
+	height: 300px;
+	width: 300px;
+	left: 50%;
+	top: 50%;
+	margin-top: 220px;
+	margin-left: -150px;
+}
+.entrada{
+	width: 240px;
+ 	height: 55px;
+ 	font-size: 35px;
+ 	padding: 15px;
+ 	margin-bottom: 10px;
+}
+
+.check{
+	position: relative;
+	bottom: -2px;
+ }
+
+ .fuente{
+ 	font-size:30px; 
+ 	font-family: 'futura'; 
+ 	color:#606062;
+ }
+
+ /* modelo de caja responsive
+
+ position: absolute;
+	height: 180px;
+	width: 300px;
+	left: 50%;
+	top: 50%;
+	margin-top: -120px;
+	margin-left: -150px;
+
+ */

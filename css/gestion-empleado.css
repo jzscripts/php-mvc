@@ -1,0 +1,206 @@
+.empleado{
+    border: 1px solid #CED5D7;
+    border-radius: 16px;
+    padding: 30px 25px 10px;
+    margin-top: 5   0px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 8px #EEF5F7 inset;
+    float: left;
+}
+
+#l1 {
+    float: right;
+    margin-bottom: 2px;
+}
+
+
+#l1 label{
+    margin-left: -105px;
+}
+
+.empleado label{
+    display: block;  /* esto es para que el label se sobreponga a la caja de texto */
+    font-weight: bold;
+    float: left;
+    margin: 2px;
+    padding: 0px;
+    color: #798e94;
+    
+}
+.empleado div{
+    margin-bottom: 30px; /* esto los separara un poco */
+
+}
+
+.empleado input[type='text'], .empleado textarea{
+    padding: 7px 6px;
+    width: 320px; /* una longitud definida */
+    border: 1px solid #CED5D7;
+    resize: none; /* esta propiedad es para que el textarea no sea redimensionable */
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 5px 0;
+    float: right;
+    
+}
+.empleado input[type='text']:focus, .empleado textarea:focus{
+    outline: none; /* reset especifico para Chrome/Safari */
+    box-shadow:0 0 0 3px #dde9ec;
+}
+
+.empleado input[type='submit']{
+    border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    margin: 20px;
+ 
+    background: #e4f1f6; /* fallback para navegadores que no soporten degradados */
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);
+}
+.empleado input[type='submit']:hover{
+    background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);
+}
+.empleado input[type='submit']:active{
+    background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);
+}
+
+
+
+/*****************************************
+Ejemplos Botons
+*****************************************/
+
+
+
+.myButton {
+    -moz-box-shadow:inset 0px 1px 0px 0px #caefab;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #caefab;
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+    background-color:#A4A4A4;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #268a16;
+    display:inline-block;
+    cursor:pointer;
+    color:#306108;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #aade7c;
+}
+.myButton:hover {
+    background-color:#5cb811;
+}
+.myButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+
+.myButtons {
+    -moz-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    -webkit-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    background-color:#dbe6c4;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    cursor:pointer;
+    color:#757d6f;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 24px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ced9bf;
+}
+.myButtons:hover {
+    background-color:#9ba892;
+}
+.myButtons:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+
+
+.Button {
+    -moz-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    -webkit-box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    background-color:#768d87;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:11px 23px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+}
+.Button:hover {
+    background-color:#6c7c7c;
+}
+.Button:active {
+    position:relative;
+    top:1px;
+}
+
+
+/********************************************
+Boton Volver
+********************************************/
+
+.volver {
+    color: #000;
+    
+}
+
+/********************************************
+Clase Buscar
+********************************************/
+.buscar {
+    margin-top: 60px; 
+
+}
+
+.buscar2 {
+    margin-top: 100px; 
+
+}
+
+.buscar3 {
+    margin-top: 10px; 
+
+}
+
+.buscar4 {
+    margin-top: 20px;
+    float: right;
+
+}
+
+.buscar5 {
+    float: left;
+}
